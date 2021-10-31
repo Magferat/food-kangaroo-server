@@ -113,8 +113,8 @@ run().catch(console.dir);
 
 //APP Get 
 app.get('/', (req, res) => {
-    res.send('Bismillah')
+    res.send('RUNNING SERVER')
 });
 app.listen(port, () => {
-    console.log('Alhamduliia', port)
+    console.log('running on port', port)
 })
